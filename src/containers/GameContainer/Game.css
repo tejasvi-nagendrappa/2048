@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #faf8ef;
+}
+
+.GameControls {
+  margin: 20px;
+}
+
+.ButtonGroup {
+  display: flex;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.Game {
+  text-align: center;
+}
+
+.Row {
+  display: flex;
+}
+
+.Button {
+  background-color: #bbada0;
+  color: #303030;
+  height: 45px;
+  width: 100px;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.5s, color 0.5s;
+  padding: 10px;
+}
+
+.Button:hover {
+  background-color: rgb(17, 18, 19);
+  color: #fff;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.BoardContainer {
+  background: #bbada0;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.Cell {
+  background-color: #303030;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  margin: 5px;
+}
+
+.Number {
+  color: #fff;
+  font-size: 35px;
+}
+
+.InfoContainer {
+  font-size: 25px;
+  height: 60px;
+}
